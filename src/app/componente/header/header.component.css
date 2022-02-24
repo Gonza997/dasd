@@ -1,0 +1,39 @@
+
+.header-container{
+    position: relative; /*permite manejar dentro de la etiqueta contenedora*/
+    /*justify-content: center;
+    align-items: flex-start;*/
+    height: 300px;
+    width: 100%;
+    background-color: rgb(93, 34, 148);
+    background-image: url(../../../assets/Image/descarga.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: blue;
+   
+        
+    
+}
+.input{
+    position: absolute;
+    background-color: rgb(83, 62, 62);
+    height: 40px;
+    width: 30%;    
+    top: 10px;
+    right: 250px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px 0px #232c8a;
+    font-style: italic;
+    
+}
+.capa{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(square, blue,orange);
+    opacity: 0.7;
+    
+}
+
+
