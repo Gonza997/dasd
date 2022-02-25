@@ -34,6 +34,7 @@
 }
 .nombre{
     position: center;
+    x-index: center;
     background-color: transparent;
     background-position: center;
 }
