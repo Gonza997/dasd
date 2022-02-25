@@ -1,8 +1,8 @@
-
+/*HAY UN SERIO PROBLEMA CON CENTRAR LOS ELEMENTOS EN EL HEADER*/
 .header-container{
-    /*position: relative;*/ /*permite manejar dentro de la etiqueta contenedora*/
-    /*justify-content: center;
-    align-items: flex-start;*/
+    position: relative; /*permite manejar dentro de la etiqueta contenedora*/
+    justify-content: center;
+    align-items: flex-start;
     height: 300px;
     width: 100%;    
     background-image: url(../../../assets/Image/20220225_104956.jpg);
@@ -31,6 +31,11 @@
    box-shadow: 4px 4px 5px 0px #232c8a;
    font-style: italic; 
    z-index: 1;  
+}
+.nombre{
+    position: center;
+    background-color: transparent;
+    background-position: center;
 }
 
 
