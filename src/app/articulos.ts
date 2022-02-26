@@ -3,3 +3,4 @@ export interface Articulo{
     precio: number;
     foto: string;
 }
+

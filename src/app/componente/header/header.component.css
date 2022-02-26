@@ -1,8 +1,10 @@
 /*HAY UN SERIO PROBLEMA CON CENTRAR LOS ELEMENTOS EN EL HEADER*/
 .header-container{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
     position: relative; /*permite manejar dentro de la etiqueta contenedora*/
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start; 
     height: 300px;
     width: 100%;    
     background-image: url(../../../assets/Image/20220225_104956.jpg);
@@ -21,8 +23,8 @@
     opacity: 0.5;
     z-index: 0;
 }
-.input{
-   position: relative;
+.input{   
+   position: relative;   
    background-position: center;
    background-color: rgb(83, 62, 62);
    height: 40px;
@@ -30,13 +32,15 @@
    border-radius: 5px;
    box-shadow: 4px 4px 5px 0px #232c8a;
    font-style: italic; 
+   font-size: 2rem;
    z-index: 1;  
 }
 .nombre{
     position: center;
     x-index: center;
     background-color: transparent;
-    background-position: center;
+    color: black;
+    
 }
 
 
