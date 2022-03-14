@@ -1,9 +1,16 @@
 *{
     background-color: white;
+    font-size: medium;
+    border-radius: 5px;
 }
 .container{
+    position: center;
+    font-size: medium;
     margin-top: 30px;
     width: 250px;
     height: 450px;
  
+}
+diaSemana{
+    font-size: medium;
 }
