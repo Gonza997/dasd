@@ -23,8 +23,12 @@
     opacity: 0.5;
     z-index: 0;
 }
-.input{   
-   position: relative;   
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+.input{
+   margin-bottom: 10px;     
    background-position: center;
    background-color: rgb(83, 62, 62);
    height: 40px;
@@ -41,8 +45,7 @@
     font-size: 45px;
     font-family: 'Permanent Marker', cursive;
     background-color: transparent;
-    color: black;
-    
+    color: black;    
 }
 
 

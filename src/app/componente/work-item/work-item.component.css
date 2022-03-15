@@ -1,0 +1,13 @@
+.container-item{
+    background-color: grey;
+    width: 50px;
+    height: 30px;
+}
+h1{
+    background-color: gray;
+    text-align: center;
+    padding-top: 10px;    
+}
+.container-item:hover{
+    border: solid 3px black;
+}
