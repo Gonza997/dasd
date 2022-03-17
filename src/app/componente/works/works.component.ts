@@ -6,7 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./works.component.css']
 })
 export class WorksComponent implements OnInit {
-
+  
+  works: Array<String> = [
+    "Papeleria",
+    "Fotos",
+    "Putacopias",
+    "Putas",
+    "Putas",
+  ]
   constructor() { }
 
   ngOnInit(): void {
